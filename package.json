@@ -1,19 +1,12 @@
 {
-  "name": "invpush",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "heroku-node",
+  "description": "Our sample Node to Heroku app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/invpush/invpush.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/invpush/invpush/issues"
-  },
-  "homepage": "https://github.com/invpush/invpush#readme"
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
+  }
 }
